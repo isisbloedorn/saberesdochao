@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saberes do chão</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="agricultura sustentável.html" class="lista-menu__link">Agricultura sustentável</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="gricultura urbana.html" class="lista-menu__link">Agricultura urbana</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="turismo rural.html" class="lista-menu__link">turismo rural</a>
+                </li>
+            </ul>
+            <img src="img/logo.png" alt="Logo da Alurabooks" class="container__imagem">
+            <h1 class="container__titulo"><a href="index.html" class="lista-menu__link2"><b
+                        class="container__titulo--negrito">Saberes do chão</h1></a>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="agricultura sustentável.html" class="lista-menu__link">Agricultura sustentável</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="agricultura urbana.html" class="lista-menu__link">Agricultura urbana</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="turismo rural.html" class="lista-menu__link">Turismo rural</a>
+                </li>
+            </ul>
+
+        </ul>
+
+        <div class="container">
+            <a href="perfil.html"><img src="img/perfil.png" alt="Meu perfil" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo"></h2>
+        <p class="banner__texto">Bem vindo(a)!!</p>
+        <p class="banner__texto-p">Este site foi criado com o intuito de informar as pessoas sobre o uso de defensivos
+            agrícolas, principalmente as que moram na zona urbana e não tem muito contato com como cultivar e proteger
+            suas plantas. </p>
+        <p class="banner__texto-p">Navegue em nosso site e descubra tudo o que você precisa saber sobre o cuidado com
+            pragas e doenças!</p>
+            
+    </section>
+   
+             
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Saberes do chão</h2>
+        <p>&copy; 2025 Saberes do chão. Todos os direitos reservados.</p>
+        <img src="img/logo.png" alt="Logo da Alurabooks" class="rodapé__imagem">
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Links Úteis</li>
+            <li class="lista-rodapé__item">
+                <a href="agricultura sustntável.html" class="lista-rodapé__link">Agricultura sustentavel</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="agricultura urbana.html" class="lista-rodapé__link">Agricultura urbana</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="turismo rural.html" class="lista-rodapé__link">Turismo rural</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="index.html" class="lista-rodapé__link">Página inicial</a>
+            </li>
+           
+        </ul>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
